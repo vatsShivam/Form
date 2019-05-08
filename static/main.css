@@ -1,0 +1,95 @@
+
+body {
+    background-color: #303641;
+  
+}
+  
+.remember-me {
+    margin: 10px 38px;
+}
+.card-header h5 {
+    
+    font-size:22px;
+    text-align: center;
+}
+.btn-orange{
+    background-color: #373b3d;
+    
+    margin: 10px;
+    padding: 5px;
+    width: 100px;
+    font-size: 15px;
+    font-weight: inherit;
+    color:white;
+    font-weight: bold;
+}
+
+.forgot-password {
+    margin-left:70px;
+    bottom: 0%;
+    margin-top: 5px;
+}
+
+.forgot-password a:link {
+    color: #C1C3C6;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.forgot-password a:visited {
+    color: #C1C3C6;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    color: #FFF;
+    transition: color 1s;
+
+} 
+
+.forgot-passwords {
+    margin-left:113px;
+    bottom: 0%;
+    margin-top: 5px;
+}
+
+.forgot-passwords a:link {
+    color: #C1C3C6;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.forgot-passwords a:visited {
+    color: #C1C3C6;
+    text-decoration: none;
+}
+
+.forgot-passwords a:hover {
+    color: #FFF;
+    transition: color 1s;
+}
+.register {
+    margin: auto;
+    padding: 16px 0;
+    text-align: center;
+    margin-top: 40px;
+    width: 85%;
+    border-top: 1px solid #C1C3C6;
+}
+.register h6 {
+    font-size:18px;
+}
+.clearfix {
+    clear: both;
+}
+
+#register-link {
+    margin-top: 10px;
+    padding: 6px 25px;
+    background: #373E4A;
+    color: #C1C3C6;
+    font-weight: bold;
+    border: 0 none;
+    cursor: pointer;
+    border-radius: 3px;
+}
