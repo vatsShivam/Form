@@ -1,53 +1,70 @@
-
 <html>
+
 <head>
-<title>Login Page</title>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="../static/main.css">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../static/main.css">
 
 </head>
+
 <body>
     <div class="container">
         <div class="row">
-                <div class=" mx-auto">   
-<div class="card text-white bg-secondary mb-3" style="min-width: 340px; min-height: 445px; margin-top:120px; border:#303641 1px solid" >
+            <div class=" mx-auto">
+                <div class="card text-white bg-secondary mb-3"
+                    style="min-width: 340px; min-height: 445px; margin-top:120px; border:#303641 1px solid">
 
-    <div class="card-header" style="background: #1A1C1D; min-height:60px"><h5 class="card-title text-center" style="padding-top:10px">Login</h5></div>
-  <div class="card-body" style="background: #1D1F20">
-        <form>
-	    <div class="input-group mb-3" style="width:250px;margin-left:20px">
-            <div class="input-group-append" style="border:   #373b3d 3px solid" >
-                <span class="input-group-text" style="background:  #373b3d; border-color:  #373b3d ; border-right: 1px solid gray "><i class=="fas fa-user"></i></span>
-            </div>
-            <input type="text" name="" class="form-control input_user" style="background:  #373b3d ; border-color:  #373b3d;font-weight:bold " value="" placeholder="Username">
-        </div> 
-         <div class="input-group mb-2"style="width:250px;margin-left:20px" >
-                <div class="input-group-append" style="border:   #373b3d 3px solid">
-                    <span class="input-group-text" style="background:  #373b3d; border-color:  #373b3d ; border-right: 1px solid gray"><i class=="fas fa-user"></i></span>
-                </div>
-                <input type="text" name="" class="form-control input_user" style="background:  #373b3d ; border-color:  #373b3d;font-weight:bold " value="" placeholder="Password">
-            </div>
-    
-            <div style="display:d-flex">
-                    <button class="btn btn-orange"id="ran"onclick="satyam()">Log In</button>
-               </div>
-               
-               <div class="forgot-password">
-                    <a href="#">Forgot your password?</a>
-                </div>
-                <div class="register">
-                       <h6> Don't have an account yet?</h6>
-                        <a href="/register.html"><button id="register-link">Register here</button></a>
+                    <div class="card-header" style="background: #1A1C1D; min-height:60px">
+                        <h5 class="card-title text-center" style="padding-top:10px">Login</h5>
                     </div>
-                </div>   
-</div>
-<script>
-    var aler=document.getElementById('ran');
-    aler.addEventListener('click',function(){
-        alert("hello World");
-    });
-    </script>
+                    <div class="card-body" style="background: #1D1F20">
+                        <form>
+                            <div class="input-group mb-3" style="width:250px;margin-left:20px">
+                                <div class="input-group-append" style="border:   #373b3d 3px solid">
+                                    <span class="input-group-text"
+                                        style="background:  #373b3d; border-color:  #373b3d ; border-right: 1px solid gray "><i
+                                            class=="fas fa-user"></i></span>
+                                </div>
+                                <input type="text" name="" class="form-control input_user"
+                                    style="background:  #373b3d ; border-color:  #373b3d;font-weight:bold " value=""
+                                    placeholder="Username">
+                            </div>
+                            <div class="input-group mb-2" style="width:250px;margin-left:20px">
+                                <div class="input-group-append" style="border:   #373b3d 3px solid">
+                                    <span class="input-group-text"
+                                        style="background:  #373b3d; border-color:  #373b3d ; border-right: 1px solid gray"><i
+                                            class=="fas fa-user"></i></span>
+                                </div>
+                                <input type="text" name="" class="form-control input_user"
+                                    style="background:  #373b3d ; border-color:  #373b3d;font-weight:bold " value=""
+                                    placeholder="Password">
+                            </div>
+
+                            <div style="display:d-flex">
+                                <button class="btn btn-orange" id="ran" onclick="satyam()">Log In</button>
+                            </div>
+
+                            <div class="forgot-password">
+                                <a href="#">Forgot your password?</a>
+                            </div>
+                            <div class="register">
+                                <h6> Don't have an account yet?</h6>
+                                <a href="/register.html"><button id="register-link">Register here</button></a>
+                            </div>
+                    </div>
+                </div>
+                <script>
+                    var aler = document.getElementById('ran');
+                    aler.addEventListener('click', function () {
+                        alert("hello World");
+                    });
+                </script>
 </body>
 <html>
